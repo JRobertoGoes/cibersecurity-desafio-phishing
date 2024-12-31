@@ -66,6 +66,10 @@ docker exec -it kali-linux /bin/bash
 - ~Obtendo o endereço da máquina: ``` ifconfig ```~ Só coloca como localhost, 127.0.0.1, ou o ip da maquina onde está rodando o docker pois foi configurado assim no docker
 - URL para clone: http://www.facebook.com
 
-### Resutados
+### Acesse o browser o endereço: 
+- Se for pela mesma máquina: localhost ou 127.0.1
+- Se for de outra máquina da rede, o endereço ip/hostname da máquina onde está rodando o docker
+
+### Resutados (na máquina Docker)
 
 ![Alt text](./getDados.png "Optional title")
